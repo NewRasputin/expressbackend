@@ -18,7 +18,7 @@ router.route('/posts')
   res.json({message: 'GET posts'})
 })
 .post(function (req, res) {
- res.json({message: 'POST posts'})
+  res.json({message: 'POST posts'})
 })
 
 // Above routes prefixed with /API
