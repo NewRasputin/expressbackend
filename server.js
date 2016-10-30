@@ -3,10 +3,11 @@ var bodyParser = require('body-parser')
 var app = express()
 var router = express.Router()
 
+// Configure bodyParser
 app.use(bodyParser.urlencoded({ extended: true }))
-
 app.use(bodyParser.json())
 
+// Set ports
 var port = process.env.PORT || 5000
 
 // Set public folder
