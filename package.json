@@ -1,0 +1,11 @@
+{
+  "name": "expressbackend",
+  "version": "1.0.0",
+  "description": "Simple Express.js backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ras <newrasputin1@gmail.com>",
+  "license": "ISC"
+}
